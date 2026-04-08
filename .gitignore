@@ -1,0 +1,139 @@
+﻿# Rider / JetBrains IDE
+.idea/
+*.sln.iml
+*.DotSettings.user
+*.DotSettings
+*.cache
+*.csproj.user
+
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build output
+bin/
+obj/
+out/
+build/
+
+# NuGet packages
+packages/
+*.nupkg
+*.nuget.props
+*.nuget.targets
+
+# Debug and temporary files
+*.log
+*.pid
+*.seed
+*.pid.lock
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# Rider specific
+_ReSharper.Caches/
+*.sln.ide/
+*.csproj.DotSettings
+*.DotSettings.user
+*.sln.DotSettings.user
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Backup files
+*~
+*.bak
+*.tmp
+
+# Rider internal caches
+/.idea/.idea.LegacyRenewalApp.dir/
+/.idea/.idea.LegacyRenewalApp.dir/.idea/
+/.idea/config/
+/.idea/shelf/
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/tasks.xml
+/.idea/dictionaries/
+/.idea/libraries/
+/.idea/dataSources/
+/.idea/sqlDataSources.xml
+/.idea/runConfigurations/
+/.idea/codeStyles/
+/.idea/copyright/
+/.idea/scopes/
+/.idea/vcs.xml
+/.idea/misc.xml
+/.idea/encodings.xml
+/.idea/indexLayout.xml
+/.idea/projectSettingsUpdater.xml
+
+# Rider project specific (but keep .gitignore itself)
+**/.gitignore
+!.gitignore
+
+# Rider language injection
+/.idea/compiler.xml
+/.idea/jarRepositories.xml
+/.idea/packageReferences.xml
+/.idea/urls.xml
+/.idea/workspace.xml
+
+# Rider caches
+/.idea/.idea.LegacyRenewalApp.dir/.idea/workspace.xml
+/.idea/.idea.LegacyRenewalApp.dir/.idea/indexLayout.xml
+/.idea/.idea.LegacyRenewalApp.dir/.idea/projectSettingsUpdater.xml
+/.idea/.idea.LegacyRenewalApp.dir/.idea/encodings.xml
+
+# Benchmark results
+BenchmarkDotNet.Artifacts/
+
+# Code coverage output
+*.coverage
+*.coveragexml
+*.coveragexml
+*.trx
+*.TestResults
+
+# SonarQube
+.sonarqube/
+out/sonarqube/
+
+# Docker
+.dockerignore
+Dockerfile*
+
+# Publish profiles
+*.pubxml.user
+
+# Local development certificates
+*.pfx
+*.p12
+*.snk
+*.key
+
+# Package distribution
+*.nupkg
+*.snupkg
+
+# Rider internal files
+/.run/
+/.vscode/
+
+# Rider script debugging
+/.idea/console.xml
+/.idea/workspace.xml~
